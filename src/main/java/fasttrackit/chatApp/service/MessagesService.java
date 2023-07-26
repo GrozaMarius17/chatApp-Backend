@@ -13,6 +13,7 @@ public class MessagesService {
     List<Message> messagesList = List.of(new Message("Hello"),new Message("My name is Marius"));
     ArrayList<Message> messageArrayList = new ArrayList<>();
 
+
     public ArrayList<Message> getMessageArrayList() {
         return messageArrayList;
     }
