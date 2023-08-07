@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("chatApp")
-public class Controller {
+public class MessageController {
     @Autowired
     MessagesService service;
     @GetMapping("messages")
